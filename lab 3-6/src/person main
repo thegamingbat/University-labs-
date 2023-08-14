@@ -1,0 +1,39 @@
+
+
+public class Main {
+    public static void main(String[] args){
+       var p1 = new Person();
+
+       p1.name = "Abdul Sittar Edhi";
+       p1.deathYear = 2016;
+       p1.birthYear = 1928;
+
+
+
+       var p2 = new Person(p1);
+
+
+       var p3 = new Person("Abdul Sittar Edhi" , 1928 , 2016 );
+       var p4 = new Person("Babar Azam" ,1994 );
+
+       p1.displayInfo();
+       p2.displayInfo();
+       p3.displayInfo();
+       p4.displayInfo();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+}

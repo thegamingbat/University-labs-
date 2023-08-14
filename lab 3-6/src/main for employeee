@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args){
+        var rep1 = new EmployeeRepository();
+
+
+        var e1 = new Employee("Monkey D" , "Luffy");
+        var e2 = new Employee("Gol D" , "Roger");
+        var e3 = new Employee("Rocks D" , "Xebec");
+        rep1.addEmployee(e1);
+        rep1.addEmployee(e2);
+        rep1.addEmployee(e3);
+
+        rep1.displayEmployees();
+
